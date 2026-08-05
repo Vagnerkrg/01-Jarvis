@@ -1,14 +1,16 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
+
 [project]
-name = "jarvis-ai-engineering-os"
+name = "jarvis-copilot"
 version = "0.1.0"
-description = "Personal AI Engineering Assistant and Development Operating System"
+description = "Personal AI Copilot System"
 requires-python = ">=3.12"
 
+
 [tool.pytest.ini_options]
-testpaths = [
-    "tests"
+pythonpath = [
+    "src"
 ]
